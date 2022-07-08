@@ -1,0 +1,96 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/feed.css">
+    <link rel="stylesheet" href="css/accounts.css">
+    <link rel="stylesheet" href="css/display.css">
+    <title>TOKTOK</title>
+</head>
+<body>
+
+    <nav class="navigation">
+        <div class="title">
+            <img id="logo" src="imgs/logo.png" alt="TokTok">
+            <h1>Toktok</h1>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Pesquisar contas e vídeos"></input>
+            <button><img src="imgs/lupa.png" alt=""></button>
+        </div>
+        <button class="upload">
+            <h2>╂ Carregar</h2>
+        </button>
+        <button class="login">
+            <h2>Entrar</h2>
+        </button>
+        <button class="settings">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+    </nav>
+
+    <section class="feed">
+        <div class="foryou">
+            <button><img src="imgs/house.png"> Para Você</button>
+            <button><img src="imgs/following.png"> Seguindo</button>
+            <button><img src="imgs/recording.png"> Live</button>
+        </div>
+        <div class="loginWarning">
+            <p>Faça login para seguir criadores, curtir vídeos e ver comentários.</p>
+            <button>Entrar</button>
+        </div>
+        <div class="suggested">
+            <h4>contas sugeridas</h4>
+            <ul id="accountList">
+                <li class="account">
+                    <img src="imgs/user.png">
+                    <p>userName</p>
+                </li>
+                <li class="account">
+                    <img src="imgs/user.png">
+                    <p>userName</p>
+                </li>
+                <li class="account">
+                    <img src="imgs/user.png">
+                    <p>userName</p>
+                </li>
+                <li class="account">
+                    <img src="imgs/user.png">
+                    <p>userName</p>
+                </li>
+                    <li class="account">
+                    <img src="imgs/user.png">
+                    <p>userName</p>
+                </li>
+                </li>
+                    <li class="account">
+                    <img src="imgs/user.png">
+                    <p>userName</p>
+                </li>
+                </li>
+                    <li class="account">
+                    <img src="imgs/user.png">
+                    <p>userName</p>
+                </li>
+                </li>
+                    <li class="account">
+                    <img src="imgs/user.png">
+                    <p>userName</p>
+                </li>
+            </ul>
+            <button id="showAll">Ver tudo</button>
+        </div>
+    </section>
+
+    <section class="display">
+        <div class="content"></div>
+    </section>
+
+    <script src="js/suggested.js"></script>
+</body>
+</html>

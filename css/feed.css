@@ -1,0 +1,95 @@
+.feed
+{
+    display: block; overflow-y: scroll; overflow-x: hidden;
+    position: fixed;
+    width: 20%; min-width: 200px;  height: calc(100% - 80px);
+    margin-left: 10%;
+}
+.feed::-webkit-scrollbar
+{
+    width: 6px;
+}
+.feed::-webkit-scrollbar-track
+{
+    background: none;
+}
+.feed::-webkit-scrollbar-thumb
+{
+    background: none;
+    border-radius: 10px;
+}
+.feed:hover::-webkit-scrollbar-thumb
+{
+    background: #00000015;
+}
+
+.foryou
+{
+    width: 100%; height: 180px;
+}
+.foryou :first-child
+{
+    color: #fe2854;
+}
+.foryou button
+{
+    width: 100%; height: 33%; line-height: 33%;
+    text-align: start; font-size: large; font-weight: bolder;
+    
+    border: none;
+    background: none;
+}
+.foryou img
+{
+    position: relative; top: 33%;
+    transform: translate(0, -50%);
+
+    width: 30px;
+}
+
+.loginWarning
+{
+    width: 100%; height: 20%; max-height: 150px;
+    margin-top: 10px; margin-bottom: 10px;
+
+    border-top: 1px solid #0000001f;
+}
+.loginWarning p
+{
+    height: 50%; margin-top: 5px;
+    font-size: 1.0em;text-align: justify; color: #00000070;
+}
+.loginWarning button
+{
+    width: 100%; height: 40px;
+    font-size: large; font-weight: 700; text-align: center; color: #fe2c55;
+    
+    border: 1px solid #fe2c55;
+    border-radius: 5px;
+    background: none;
+}
+
+.suggested
+{
+    width: 100%; height: fit-content;
+}
+.suggested h4
+{
+    margin-bottom: 10px;
+}
+.suggested ul
+{
+    height: 200px; margin-bottom: 10px;
+    overflow-y: hidden;
+}
+.suggested ul li
+{
+    width: 100%; height: 50px;
+}
+.suggested button
+{
+    width: 50%; height: 100%;
+    font-size: large; font-weight: bolder; text-align: start; color: #fe2c55;
+
+    border: none;
+}
